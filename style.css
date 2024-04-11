@@ -1,0 +1,30 @@
+table{
+    background-color: rgb(181, 181, 181);
+    opacity: 80%;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 2%;
+}
+body{
+    background-image: url(icegif-962.gif);
+
+
+}
+
+h1{
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 3%;
+}
+
+button{
+    
+    color: rgb(25, 25, 25);
+    margin-top: 5%;
+    margin-bottom: 15%;
+    font-size: larger;
+
+}

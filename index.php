@@ -10,7 +10,8 @@ include('conn.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RECENSIONI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -54,8 +55,8 @@ $count = 0;
 ?>
   
 
-
-    <button>ELIMINA</button>
+<h1><button>ELIMINA</button></h1>
+    
 <form>
 </body>
 </html>

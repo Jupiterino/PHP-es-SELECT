@@ -10,7 +10,8 @@ include('conn.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>RECENSIONI</title>
 </head>
 <body>
 
@@ -24,7 +25,7 @@ if(!isset($_POST['val'])){
         $sql = "DELETE FROM recensioni WHERE IDRecensione = $v";
         $result = $conn->query($sql);
     }
-    echo "eliminazione riuscita"
+    echo "eliminazione riuscita";
 }
 
 ?>
